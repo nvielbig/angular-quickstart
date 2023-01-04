@@ -5,7 +5,7 @@ describe('empty spec', () => {
 
   it('displays the resources text', () => {
     cy.get('h2')
-      .contains('This is a simple site I\'m using to test.');
+      .contains('Just a site I am messing around with.');
   })
   it('renders the image', () => {
     cy.get('img')
